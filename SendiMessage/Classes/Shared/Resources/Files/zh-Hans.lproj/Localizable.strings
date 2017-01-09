@@ -1,0 +1,10 @@
+/* Localized versions of Localizable.strings keys */
+
+
+"UpdateItemKey"         = "现在更新";
+"QuitAppItemKey"        = "退出应用";
+"OKItemKey"             = "确定";
+
+"ReconnectItemKey"                = "重试";
+"ExitAppItemKey"                  = "退出";
+"FetchConfigFileFailMsgKey"       = "访问当前内容需要网络连接。您当前可能是离线状态或是信号太弱。请您确保关闭飞行模式并且确保WiFi或3G/EDGE连接可见。";

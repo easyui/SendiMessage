@@ -1,0 +1,10 @@
+/* Localized versions of Localizable.strings keys */
+
+
+"UpdateItemKey"         = "Update Now";
+"QuitAppItemKey"        = "Quit App";
+"OKItemKey"             = "OK";
+
+"ReconnectItemKey"                = "Reconnect";
+"ExitAppItemKey"                  = "Exit App";
+"FetchConfigFileFailMsgKey"       = "To access this content, a\nconnection to the internet\nis required.  You’re either\noffline right now or your\nsignal strength is too low.\n\nPlease make sure your\nairplane mode is turned\noff and a WiFi or 3G/EDGE\nconnection is available.";

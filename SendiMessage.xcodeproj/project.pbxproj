@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		60460815184B6EF600C7956A /* BuildScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 604608AC184B6EF700C7956A /* Build configuration list for PBXAggregateTarget "BuildScript" */;
+			buildPhases = (
+				60460814184B6EF600C7956A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = BuildScript;
+			productName = BuildScript;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		604607DF184B6EF600C7956A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607DE184B6EF600C7956A /* UIKit.framework */; };
+		604607E1184B6EF600C7956A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607E0184B6EF600C7956A /* Foundation.framework */; };
+		604607E3184B6EF600C7956A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607E2184B6EF600C7956A /* CoreGraphics.framework */; };
+		604607E5184B6EF600C7956A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607E4184B6EF600C7956A /* MapKit.framework */; };
+		604607E7184B6EF600C7956A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607E6184B6EF600C7956A /* CoreLocation.framework */; };
+		604607E9184B6EF600C7956A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607E8184B6EF600C7956A /* MobileCoreServices.framework */; };
+		604607EB184B6EF600C7956A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607EA184B6EF600C7956A /* Accounts.framework */; };
+		604607ED184B6EF600C7956A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607EC184B6EF600C7956A /* AudioToolbox.framework */; };
+		604607EF184B6EF600C7956A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607EE184B6EF600C7956A /* Security.framework */; };
+		604607F1184B6EF600C7956A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607F0184B6EF600C7956A /* MediaPlayer.framework */; };
+		604607F3184B6EF600C7956A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607F2184B6EF600C7956A /* AVFoundation.framework */; };
+		604607F5184B6EF600C7956A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607F4184B6EF600C7956A /* CFNetwork.framework */; };
+		604607F7184B6EF600C7956A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607F6184B6EF600C7956A /* SystemConfiguration.framework */; };
+		604607F9184B6EF600C7956A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607F8184B6EF600C7956A /* StoreKit.framework */; };
+		604607FB184B6EF600C7956A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607FA184B6EF600C7956A /* QuartzCore.framework */; };
+		604607FD184B6EF600C7956A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607FC184B6EF600C7956A /* MessageUI.framework */; };
+		604607FF184B6EF600C7956A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604607FE184B6EF600C7956A /* CoreData.framework */; };
+		60460801184B6EF600C7956A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60460800184B6EF600C7956A /* iAd.framework */; };
+		60460803184B6EF600C7956A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60460802184B6EF600C7956A /* ImageIO.framework */; };
+		60460805184B6EF600C7956A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60460804184B6EF600C7956A /* CoreMedia.framework */; };
+		60460807184B6EF600C7956A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60460806184B6EF600C7956A /* Twitter.framework */; };
+		60460809184B6EF600C7956A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60460808184B6EF600C7956A /* AdSupport.framework */; };
+		6046081A184B6EF600C7956A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60460818184B6EF600C7956A /* InfoPlist.strings */; };
+		60460820184B6EF600C7956A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046081F184B6EF600C7956A /* main.m */; };
+		60460843184B6EF600C7956A /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 60460842184B6EF600C7956A /* AppDelegate_iPhone.m */; };
+		60460845184B6EF600C7956A /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60460844184B6EF600C7956A /* MainWindow_iPhone.xib */; };
+		6046087D184B6EF700C7956A /* feedConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6046087C184B6EF700C7956A /* feedConfig.plist */; };
+		6046087F184B6EF700C7956A /* requestConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6046087E184B6EF700C7956A /* requestConfig.plist */; };
+		60460881184B6EF700C7956A /* ImagesConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60460880184B6EF700C7956A /* ImagesConfig.plist */; };
+		60460884184B6EF700C7956A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60460882184B6EF700C7956A /* Localizable.strings */; };
+		60460888184B6EF700C7956A /* DefaultDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60460886184B6EF700C7956A /* DefaultDataModel.xcdatamodeld */; };
+		6046088A184B6EF700C7956A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460889184B6EF700C7956A /* Icon.png */; };
+		6046088C184B6EF700C7956A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6046088B184B6EF700C7956A /* Icon@2x.png */; };
+		6046088E184B6EF700C7956A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6046088D184B6EF700C7956A /* Icon-72.png */; };
+		60460890184B6EF700C7956A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6046088F184B6EF700C7956A /* Icon-72@2x.png */; };
+		60460892184B6EF700C7956A /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460891184B6EF700C7956A /* Icon-76.png */; };
+		60460894184B6EF700C7956A /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460893184B6EF700C7956A /* Icon-76@2x.png */; };
+		60460896184B6EF700C7956A /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460895184B6EF700C7956A /* Icon-120.png */; };
+		60460898184B6EF700C7956A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460897184B6EF700C7956A /* Default.png */; };
+		6046089A184B6EF700C7956A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60460899184B6EF700C7956A /* Default@2x.png */; };
+		604608BF184B70A300C7956A /* SMSendViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 604608BD184B70A300C7956A /* SMSendViewController_iPhone.m */; };
+		604608C0184B70A300C7956A /* SMSendViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604608BE184B70A300C7956A /* SMSendViewController_iPhone.xib */; };
+		604608C3184B719900C7956A /* SMCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 604608C2184B719900C7956A /* SMCell_iPhone.m */; };
+		604608C5184B71A800C7956A /* SMCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604608C4184B71A800C7956A /* SMCell_iPhone.xib */; };
+		604608C8184B8D2900C7956A /* SMSendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 604608C7184B8D2900C7956A /* SMSendItem.m */; };
+		604608CB184B8D6400C7956A /* SMSendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 604608CA184B8D6400C7956A /* SMSendInfo.m */; };
+		60473665184F587300FE4A26 /* SMGetDBStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 60473664184F587300FE4A26 /* SMGetDBStatus.m */; };
+		60473668184F58A900FE4A26 /* SMSystemEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 60473667184F58A900FE4A26 /* SMSystemEvent.m */; };
+		6047366E184F60F200FE4A26 /* SMSendStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6047366D184F60F200FE4A26 /* SMSendStatus.m */; };
+		6047367018502ADA00FE4A26 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6047366F18502ADA00FE4A26 /* NMSSH.framework */; };
+		6047367318502B3100FE4A26 /* SMSSHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6047367218502B3100FE4A26 /* SMSSHTools.m */; };
+		604736771850D75A00FE4A26 /* EmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604736761850D75A00FE4A26 /* EmojiList.plist */; };
+		60517F7318574C7100FE03D1 /* AppleOpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 60517F6D18574C7100FE03D1 /* AppleOpenALSupport.c */; };
+		60517F7418574C7100FE03D1 /* CMOpenALSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 60517F7018574C7100FE03D1 /* CMOpenALSound.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60517F7518574C7100FE03D1 /* CMOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60517F7218574C7100FE03D1 /* CMOpenALSoundManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60517F7718574CD300FE03D1 /* warning1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60517F7618574CD300FE03D1 /* warning1.wav */; };
+		60517F7A18574D8800FE03D1 /* DebugOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 60517F7918574D8800FE03D1 /* DebugOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60517F7C18574E7C00FE03D1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60517F7B18574E7C00FE03D1 /* OpenAL.framework */; };
+		9BEAFE561850BB3500D1E560 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAFE4C1850BB3500D1E560 /* FMDatabase.m */; };
+		9BEAFE571850BB3500D1E560 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAFE4E1850BB3500D1E560 /* FMDatabaseAdditions.m */; };
+		9BEAFE581850BB3500D1E560 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAFE501850BB3500D1E560 /* FMDatabasePool.m */; };
+		9BEAFE591850BB3500D1E560 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAFE521850BB3500D1E560 /* FMDatabaseQueue.m */; };
+		9BEAFE5B1850BB3500D1E560 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAFE551850BB3500D1E560 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		604607DB184B6EF600C7956A /* SendiMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendiMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604607DE184B6EF600C7956A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		604607E0184B6EF600C7956A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		604607E2184B6EF600C7956A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		604607E4184B6EF600C7956A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		604607E6184B6EF600C7956A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		604607E8184B6EF600C7956A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		604607EA184B6EF600C7956A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		604607EC184B6EF600C7956A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		604607EE184B6EF600C7956A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		604607F0184B6EF600C7956A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		604607F2184B6EF600C7956A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		604607F4184B6EF600C7956A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		604607F6184B6EF600C7956A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		604607F8184B6EF600C7956A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		604607FA184B6EF600C7956A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		604607FC184B6EF600C7956A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		604607FE184B6EF600C7956A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60460800184B6EF600C7956A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		60460802184B6EF600C7956A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		60460804184B6EF600C7956A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		60460806184B6EF600C7956A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		60460808184B6EF600C7956A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		60460819184B6EF600C7956A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6046081B184B6EF600C7956A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6046081C184B6EF600C7956A /* buildScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = buildScript.sh; sourceTree = "<group>"; };
+		6046081D184B6EF600C7956A /* SendiMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendiMessage-Info.plist"; sourceTree = "<group>"; };
+		6046081E184B6EF600C7956A /* SendiMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendiMessage-Prefix.pch"; sourceTree = "<group>"; };
+		6046081F184B6EF600C7956A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60460821184B6EF600C7956A /* SendiMessage-Definition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendiMessage-Definition.h"; sourceTree = "<group>"; };
+		60460841184B6EF600C7956A /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		60460842184B6EF600C7956A /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		60460844184B6EF600C7956A /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		6046087C184B6EF700C7956A /* feedConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = feedConfig.plist; sourceTree = "<group>"; };
+		6046087E184B6EF700C7956A /* requestConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = requestConfig.plist; sourceTree = "<group>"; };
+		60460880184B6EF700C7956A /* ImagesConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImagesConfig.plist; sourceTree = "<group>"; };
+		60460883184B6EF700C7956A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		60460885184B6EF700C7956A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		60460887184B6EF700C7956A /* DefaultDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DefaultDataModel.xcdatamodel; sourceTree = "<group>"; };
+		60460889184B6EF700C7956A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6046088B184B6EF700C7956A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6046088D184B6EF700C7956A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6046088F184B6EF700C7956A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		60460891184B6EF700C7956A /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		60460893184B6EF700C7956A /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		60460895184B6EF700C7956A /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		60460897184B6EF700C7956A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60460899184B6EF700C7956A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		604608BC184B70A300C7956A /* SMSendViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSendViewController_iPhone.h; sourceTree = "<group>"; };
+		604608BD184B70A300C7956A /* SMSendViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSendViewController_iPhone.m; sourceTree = "<group>"; };
+		604608BE184B70A300C7956A /* SMSendViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSendViewController_iPhone.xib; sourceTree = "<group>"; };
+		604608C1184B719900C7956A /* SMCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCell_iPhone.h; sourceTree = "<group>"; };
+		604608C2184B719900C7956A /* SMCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCell_iPhone.m; sourceTree = "<group>"; };
+		604608C4184B71A800C7956A /* SMCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCell_iPhone.xib; sourceTree = "<group>"; };
+		604608C6184B8D2900C7956A /* SMSendItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSendItem.h; sourceTree = "<group>"; };
+		604608C7184B8D2900C7956A /* SMSendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSendItem.m; sourceTree = "<group>"; };
+		604608C9184B8D6400C7956A /* SMSendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSendInfo.h; sourceTree = "<group>"; };
+		604608CA184B8D6400C7956A /* SMSendInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSendInfo.m; sourceTree = "<group>"; };
+		60473663184F587300FE4A26 /* SMGetDBStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGetDBStatus.h; sourceTree = "<group>"; };
+		60473664184F587300FE4A26 /* SMGetDBStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGetDBStatus.m; sourceTree = "<group>"; };
+		60473666184F58A900FE4A26 /* SMSystemEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSystemEvent.h; sourceTree = "<group>"; };
+		60473667184F58A900FE4A26 /* SMSystemEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSystemEvent.m; sourceTree = "<group>"; };
+		6047366C184F60F200FE4A26 /* SMSendStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSendStatus.h; sourceTree = "<group>"; };
+		6047366D184F60F200FE4A26 /* SMSendStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSendStatus.m; sourceTree = "<group>"; };
+		6047366F18502ADA00FE4A26 /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMSSH.framework; path = Framework/NMSSH.framework; sourceTree = "<group>"; };
+		6047367118502B3000FE4A26 /* SMSSHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSHTools.h; sourceTree = "<group>"; };
+		6047367218502B3100FE4A26 /* SMSSHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSSHTools.m; sourceTree = "<group>"; };
+		604736761850D75A00FE4A26 /* EmojiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiList.plist; sourceTree = "<group>"; };
+		60517F6D18574C7100FE03D1 /* AppleOpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AppleOpenALSupport.c; sourceTree = "<group>"; };
+		60517F6E18574C7100FE03D1 /* AppleOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleOpenALSupport.h; sourceTree = "<group>"; };
+		60517F6F18574C7100FE03D1 /* CMOpenALSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOpenALSound.h; sourceTree = "<group>"; };
+		60517F7018574C7100FE03D1 /* CMOpenALSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOpenALSound.m; sourceTree = "<group>"; };
+		60517F7118574C7100FE03D1 /* CMOpenALSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOpenALSoundManager.h; sourceTree = "<group>"; };
+		60517F7218574C7100FE03D1 /* CMOpenALSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOpenALSoundManager.m; sourceTree = "<group>"; };
+		60517F7618574CD300FE03D1 /* warning1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warning1.wav; sourceTree = "<group>"; };
+		60517F7818574D8800FE03D1 /* DebugOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugOutput.h; sourceTree = "<group>"; };
+		60517F7918574D8800FE03D1 /* DebugOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugOutput.m; sourceTree = "<group>"; };
+		60517F7B18574E7C00FE03D1 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		9BEAFE4B1850BB3500D1E560 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9BEAFE4C1850BB3500D1E560 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9BEAFE4D1850BB3500D1E560 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9BEAFE4E1850BB3500D1E560 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9BEAFE4F1850BB3500D1E560 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9BEAFE501850BB3500D1E560 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9BEAFE511850BB3500D1E560 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9BEAFE521850BB3500D1E560 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9BEAFE531850BB3500D1E560 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
+		9BEAFE541850BB3500D1E560 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9BEAFE551850BB3500D1E560 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604607D8184B6EF600C7956A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60517F7C18574E7C00FE03D1 /* OpenAL.framework in Frameworks */,
+				6047367018502ADA00FE4A26 /* NMSSH.framework in Frameworks */,
+				604607DF184B6EF600C7956A /* UIKit.framework in Frameworks */,
+				604607E1184B6EF600C7956A /* Foundation.framework in Frameworks */,
+				604607E3184B6EF600C7956A /* CoreGraphics.framework in Frameworks */,
+				604607E5184B6EF600C7956A /* MapKit.framework in Frameworks */,
+				604607E7184B6EF600C7956A /* CoreLocation.framework in Frameworks */,
+				604607E9184B6EF600C7956A /* MobileCoreServices.framework in Frameworks */,
+				604607EB184B6EF600C7956A /* Accounts.framework in Frameworks */,
+				604607ED184B6EF600C7956A /* AudioToolbox.framework in Frameworks */,
+				604607EF184B6EF600C7956A /* Security.framework in Frameworks */,
+				604607F1184B6EF600C7956A /* MediaPlayer.framework in Frameworks */,
+				604607F3184B6EF600C7956A /* AVFoundation.framework in Frameworks */,
+				604607F5184B6EF600C7956A /* CFNetwork.framework in Frameworks */,
+				604607F7184B6EF600C7956A /* SystemConfiguration.framework in Frameworks */,
+				604607F9184B6EF600C7956A /* StoreKit.framework in Frameworks */,
+				604607FB184B6EF600C7956A /* QuartzCore.framework in Frameworks */,
+				604607FD184B6EF600C7956A /* MessageUI.framework in Frameworks */,
+				604607FF184B6EF600C7956A /* CoreData.framework in Frameworks */,
+				60460801184B6EF600C7956A /* iAd.framework in Frameworks */,
+				60460803184B6EF600C7956A /* ImageIO.framework in Frameworks */,
+				60460805184B6EF600C7956A /* CoreMedia.framework in Frameworks */,
+				60460807184B6EF600C7956A /* Twitter.framework in Frameworks */,
+				60460809184B6EF600C7956A /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604607D2184B6EF600C7956A = {
+			isa = PBXGroup;
+			children = (
+				60460816184B6EF600C7956A /* SendiMessage */,
+				604607DD184B6EF600C7956A /* Frameworks */,
+				604607DC184B6EF600C7956A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604607DC184B6EF600C7956A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604607DB184B6EF600C7956A /* SendiMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604607DD184B6EF600C7956A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60517F7B18574E7C00FE03D1 /* OpenAL.framework */,
+				6047366F18502ADA00FE4A26 /* NMSSH.framework */,
+				604607DE184B6EF600C7956A /* UIKit.framework */,
+				604607E0184B6EF600C7956A /* Foundation.framework */,
+				604607E2184B6EF600C7956A /* CoreGraphics.framework */,
+				604607E4184B6EF600C7956A /* MapKit.framework */,
+				604607E6184B6EF600C7956A /* CoreLocation.framework */,
+				604607E8184B6EF600C7956A /* MobileCoreServices.framework */,
+				604607EA184B6EF600C7956A /* Accounts.framework */,
+				604607EC184B6EF600C7956A /* AudioToolbox.framework */,
+				604607EE184B6EF600C7956A /* Security.framework */,
+				604607F0184B6EF600C7956A /* MediaPlayer.framework */,
+				604607F2184B6EF600C7956A /* AVFoundation.framework */,
+				604607F4184B6EF600C7956A /* CFNetwork.framework */,
+				604607F6184B6EF600C7956A /* SystemConfiguration.framework */,
+				604607F8184B6EF600C7956A /* StoreKit.framework */,
+				604607FA184B6EF600C7956A /* QuartzCore.framework */,
+				604607FC184B6EF600C7956A /* MessageUI.framework */,
+				604607FE184B6EF600C7956A /* CoreData.framework */,
+				60460800184B6EF600C7956A /* iAd.framework */,
+				60460802184B6EF600C7956A /* ImageIO.framework */,
+				60460804184B6EF600C7956A /* CoreMedia.framework */,
+				60460806184B6EF600C7956A /* Twitter.framework */,
+				60460808184B6EF600C7956A /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60460816184B6EF600C7956A /* SendiMessage */ = {
+			isa = PBXGroup;
+			children = (
+				60460823184B6EF600C7956A /* iPhone */,
+				60460822184B6EF600C7956A /* Shared */,
+				60460817184B6EF600C7956A /* Supporting Files */,
+			);
+			path = SendiMessage;
+			sourceTree = "<group>";
+		};
+		60460817184B6EF600C7956A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60460818184B6EF600C7956A /* InfoPlist.strings */,
+				6046081C184B6EF600C7956A /* buildScript.sh */,
+				6046081D184B6EF600C7956A /* SendiMessage-Info.plist */,
+				6046081E184B6EF600C7956A /* SendiMessage-Prefix.pch */,
+				6046081F184B6EF600C7956A /* main.m */,
+				60460821184B6EF600C7956A /* SendiMessage-Definition.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60460822184B6EF600C7956A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				60460834184B6EF600C7956A /* DataModel */,
+				60460830184B6EF600C7956A /* External */,
+				6046082F184B6EF600C7956A /* Resources */,
+			);
+			name = Shared;
+			path = Classes/Shared;
+			sourceTree = "<group>";
+		};
+		60460823184B6EF600C7956A /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				6046082C184B6EF600C7956A /* Applications */,
+				6046082B184B6EF600C7956A /* AppViews */,
+				6046082A184B6EF600C7956A /* Resources */,
+			);
+			name = iPhone;
+			path = Classes/iPhone;
+			sourceTree = "<group>";
+		};
+		6046082A184B6EF600C7956A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6046082E184B6EF600C7956A /* Files */,
+				6046082D184B6EF600C7956A /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6046082B184B6EF600C7956A /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				604608BC184B70A300C7956A /* SMSendViewController_iPhone.h */,
+				604608BD184B70A300C7956A /* SMSendViewController_iPhone.m */,
+				604608BE184B70A300C7956A /* SMSendViewController_iPhone.xib */,
+				604608C1184B719900C7956A /* SMCell_iPhone.h */,
+				604608C2184B719900C7956A /* SMCell_iPhone.m */,
+				604608C4184B71A800C7956A /* SMCell_iPhone.xib */,
+				60473663184F587300FE4A26 /* SMGetDBStatus.h */,
+				60473664184F587300FE4A26 /* SMGetDBStatus.m */,
+				60473666184F58A900FE4A26 /* SMSystemEvent.h */,
+				60473667184F58A900FE4A26 /* SMSystemEvent.m */,
+				6047367118502B3000FE4A26 /* SMSSHTools.h */,
+				6047367218502B3100FE4A26 /* SMSSHTools.m */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		6046082C184B6EF600C7956A /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				60460841184B6EF600C7956A /* AppDelegate_iPhone.h */,
+				60460842184B6EF600C7956A /* AppDelegate_iPhone.m */,
+				60460844184B6EF600C7956A /* MainWindow_iPhone.xib */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		6046082D184B6EF600C7956A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6046082E184B6EF600C7956A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		6046082F184B6EF600C7956A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6046083A184B6EF600C7956A /* Files */,
+				60460839184B6EF600C7956A /* Images */,
+				60460838184B6EF600C7956A /* AppDefault */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60460830184B6EF600C7956A /* External */ = {
+			isa = PBXGroup;
+			children = (
+				60517F6C18574C7100FE03D1 /* Sound */,
+				9BEAFE4A1850BB3500D1E560 /* src */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		60460834184B6EF600C7956A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				604608C6184B8D2900C7956A /* SMSendItem.h */,
+				604608C7184B8D2900C7956A /* SMSendItem.m */,
+				604608C9184B8D6400C7956A /* SMSendInfo.h */,
+				604608CA184B8D6400C7956A /* SMSendInfo.m */,
+				6047366C184F60F200FE4A26 /* SMSendStatus.h */,
+				6047366D184F60F200FE4A26 /* SMSendStatus.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		60460838184B6EF600C7956A /* AppDefault */ = {
+			isa = PBXGroup;
+			children = (
+				60460889184B6EF700C7956A /* Icon.png */,
+				6046088B184B6EF700C7956A /* Icon@2x.png */,
+				6046088D184B6EF700C7956A /* Icon-72.png */,
+				6046088F184B6EF700C7956A /* Icon-72@2x.png */,
+				60460891184B6EF700C7956A /* Icon-76.png */,
+				60460893184B6EF700C7956A /* Icon-76@2x.png */,
+				60460895184B6EF700C7956A /* Icon-120.png */,
+				60460897184B6EF700C7956A /* Default.png */,
+				60460899184B6EF700C7956A /* Default@2x.png */,
+			);
+			path = AppDefault;
+			sourceTree = "<group>";
+		};
+		60460839184B6EF600C7956A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6046083A184B6EF600C7956A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				604736761850D75A00FE4A26 /* EmojiList.plist */,
+				6046087C184B6EF700C7956A /* feedConfig.plist */,
+				6046087E184B6EF700C7956A /* requestConfig.plist */,
+				60460880184B6EF700C7956A /* ImagesConfig.plist */,
+				60460882184B6EF700C7956A /* Localizable.strings */,
+				60460886184B6EF700C7956A /* DefaultDataModel.xcdatamodeld */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		60517F6C18574C7100FE03D1 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				60517F7818574D8800FE03D1 /* DebugOutput.h */,
+				60517F7918574D8800FE03D1 /* DebugOutput.m */,
+				60517F7618574CD300FE03D1 /* warning1.wav */,
+				60517F6D18574C7100FE03D1 /* AppleOpenALSupport.c */,
+				60517F6E18574C7100FE03D1 /* AppleOpenALSupport.h */,
+				60517F6F18574C7100FE03D1 /* CMOpenALSound.h */,
+				60517F7018574C7100FE03D1 /* CMOpenALSound.m */,
+				60517F7118574C7100FE03D1 /* CMOpenALSoundManager.h */,
+				60517F7218574C7100FE03D1 /* CMOpenALSoundManager.m */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9BEAFE4A1850BB3500D1E560 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9BEAFE4B1850BB3500D1E560 /* FMDatabase.h */,
+				9BEAFE4C1850BB3500D1E560 /* FMDatabase.m */,
+				9BEAFE4D1850BB3500D1E560 /* FMDatabaseAdditions.h */,
+				9BEAFE4E1850BB3500D1E560 /* FMDatabaseAdditions.m */,
+				9BEAFE4F1850BB3500D1E560 /* FMDatabasePool.h */,
+				9BEAFE501850BB3500D1E560 /* FMDatabasePool.m */,
+				9BEAFE511850BB3500D1E560 /* FMDatabaseQueue.h */,
+				9BEAFE521850BB3500D1E560 /* FMDatabaseQueue.m */,
+				9BEAFE531850BB3500D1E560 /* fmdb.m */,
+				9BEAFE541850BB3500D1E560 /* FMResultSet.h */,
+				9BEAFE551850BB3500D1E560 /* FMResultSet.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604607DA184B6EF600C7956A /* SendiMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604608A8184B6EF700C7956A /* Build configuration list for PBXNativeTarget "SendiMessage" */;
+			buildPhases = (
+				604607D7184B6EF600C7956A /* Sources */,
+				604607D8184B6EF600C7956A /* Frameworks */,
+				604607D9184B6EF600C7956A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendiMessage;
+			productName = SendiMessage;
+			productReference = 604607DB184B6EF600C7956A /* SendiMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604607D3184B6EF600C7956A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = NeuLion;
+				TargetAttributes = {
+					604607DA184B6EF600C7956A = {
+						DevelopmentTeam = HXFWC5M984;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 604607D6184B6EF600C7956A /* Build configuration list for PBXProject "SendiMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 604607D2184B6EF600C7956A;
+			productRefGroup = 604607DC184B6EF600C7956A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604607DA184B6EF600C7956A /* SendiMessage */,
+				60460815184B6EF600C7956A /* BuildScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604607D9184B6EF600C7956A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046081A184B6EF600C7956A /* InfoPlist.strings in Resources */,
+				60460845184B6EF600C7956A /* MainWindow_iPhone.xib in Resources */,
+				6046087D184B6EF700C7956A /* feedConfig.plist in Resources */,
+				6046087F184B6EF700C7956A /* requestConfig.plist in Resources */,
+				60460881184B6EF700C7956A /* ImagesConfig.plist in Resources */,
+				60460884184B6EF700C7956A /* Localizable.strings in Resources */,
+				6046088A184B6EF700C7956A /* Icon.png in Resources */,
+				6046088C184B6EF700C7956A /* Icon@2x.png in Resources */,
+				6046088E184B6EF700C7956A /* Icon-72.png in Resources */,
+				60460890184B6EF700C7956A /* Icon-72@2x.png in Resources */,
+				60460892184B6EF700C7956A /* Icon-76.png in Resources */,
+				60460894184B6EF700C7956A /* Icon-76@2x.png in Resources */,
+				60460896184B6EF700C7956A /* Icon-120.png in Resources */,
+				60460898184B6EF700C7956A /* Default.png in Resources */,
+				6046089A184B6EF700C7956A /* Default@2x.png in Resources */,
+				604608C0184B70A300C7956A /* SMSendViewController_iPhone.xib in Resources */,
+				604608C5184B71A800C7956A /* SMCell_iPhone.xib in Resources */,
+				604736771850D75A00FE4A26 /* EmojiList.plist in Resources */,
+				60517F7718574CD300FE03D1 /* warning1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60460814184B6EF600C7956A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# sh project name/buildScript.sh \"project name\" \"target name\" \"AdHoc\" \"bundle id\" \"ipa name\" \"FTP path\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604607D7184B6EF600C7956A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60460820184B6EF600C7956A /* main.m in Sources */,
+				60460843184B6EF600C7956A /* AppDelegate_iPhone.m in Sources */,
+				60460888184B6EF700C7956A /* DefaultDataModel.xcdatamodeld in Sources */,
+				604608BF184B70A300C7956A /* SMSendViewController_iPhone.m in Sources */,
+				604608C3184B719900C7956A /* SMCell_iPhone.m in Sources */,
+				604608C8184B8D2900C7956A /* SMSendItem.m in Sources */,
+				604608CB184B8D6400C7956A /* SMSendInfo.m in Sources */,
+				60473665184F587300FE4A26 /* SMGetDBStatus.m in Sources */,
+				60473668184F58A900FE4A26 /* SMSystemEvent.m in Sources */,
+				6047366E184F60F200FE4A26 /* SMSendStatus.m in Sources */,
+				6047367318502B3100FE4A26 /* SMSSHTools.m in Sources */,
+				9BEAFE561850BB3500D1E560 /* FMDatabase.m in Sources */,
+				9BEAFE571850BB3500D1E560 /* FMDatabaseAdditions.m in Sources */,
+				9BEAFE581850BB3500D1E560 /* FMDatabasePool.m in Sources */,
+				9BEAFE591850BB3500D1E560 /* FMDatabaseQueue.m in Sources */,
+				9BEAFE5B1850BB3500D1E560 /* FMResultSet.m in Sources */,
+				60517F7318574C7100FE03D1 /* AppleOpenALSupport.c in Sources */,
+				60517F7418574C7100FE03D1 /* CMOpenALSound.m in Sources */,
+				60517F7518574C7100FE03D1 /* CMOpenALSoundManager.m in Sources */,
+				60517F7A18574D8800FE03D1 /* DebugOutput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60460818184B6EF600C7956A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60460819184B6EF600C7956A /* en */,
+				6046081B184B6EF600C7956A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60460882184B6EF700C7956A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60460883184B6EF700C7956A /* en */,
+				60460885184B6EF700C7956A /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604608A5184B6EF700C7956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		604608A6184B6EF700C7956A /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		604608A7184B6EF700C7956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604608A9184B6EF700C7956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhaohua Cai (H4AK63G5SM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhaohua Cai (H4AK63G5SM)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = HXFWC5M984;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Framework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendiMessage/SendiMessage-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "SendiMessage/SendiMessage-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-weak_library",
+					/usr/lib/libz.dylib,
+					"-weak_library",
+					/usr/lib/libicucore.dylib,
+					"-weak_library",
+					/usr/lib/libsqlite3.dylib,
+					"-weak_framework",
+					AdSupport,
+					"-weak_framework",
+					Social,
+				);
+				PRODUCT_NAME = SendiMessage;
+				PROVISIONING_PROFILE = "31668c18-3b12-4845-b51c-88e8f2c2dd79";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "31668c18-3b12-4845-b51c-88e8f2c2dd79";
+				PROVISIONING_PROFILE_SPECIFIER = FreeForAll_dev;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		604608AA184B6EF700C7956A /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhaohua Cai (H4AK63G5SM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhaohua Cai (H4AK63G5SM)";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendiMessage/SendiMessage-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "SendiMessage/SendiMessage-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-weak_library",
+					/usr/lib/libz.dylib,
+					"-weak_library",
+					/usr/lib/libicucore.dylib,
+					"-weak_library",
+					/usr/lib/libsqlite3.dylib,
+					"-weak_framework",
+					AdSupport,
+					"-weak_framework",
+					Social,
+				);
+				PRODUCT_NAME = SendiMessage;
+				PROVISIONING_PROFILE = "31668c18-3b12-4845-b51c-88e8f2c2dd79";
+				PROVISIONING_PROFILE_SPECIFIER = FreeForAll_dev;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		604608AB184B6EF700C7956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhaohua Cai (H4AK63G5SM)";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendiMessage/SendiMessage-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "SendiMessage/SendiMessage-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-weak_library",
+					/usr/lib/libz.dylib,
+					"-weak_library",
+					/usr/lib/libicucore.dylib,
+					"-weak_library",
+					/usr/lib/libsqlite3.dylib,
+					"-weak_framework",
+					AdSupport,
+					"-weak_framework",
+					Social,
+				);
+				PRODUCT_NAME = SendiMessage;
+				PROVISIONING_PROFILE = "31668c18-3b12-4845-b51c-88e8f2c2dd79";
+				PROVISIONING_PROFILE_SPECIFIER = FreeForAll_dev;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		604608AD184B6EF700C7956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		604608AE184B6EF700C7956A /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc;
+		};
+		604608AF184B6EF700C7956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604607D6184B6EF600C7956A /* Build configuration list for PBXProject "SendiMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604608A5184B6EF700C7956A /* Debug */,
+				604608A6184B6EF700C7956A /* AdHoc */,
+				604608A7184B6EF700C7956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604608A8184B6EF700C7956A /* Build configuration list for PBXNativeTarget "SendiMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604608A9184B6EF700C7956A /* Debug */,
+				604608AA184B6EF700C7956A /* AdHoc */,
+				604608AB184B6EF700C7956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604608AC184B6EF700C7956A /* Build configuration list for PBXAggregateTarget "BuildScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604608AD184B6EF700C7956A /* Debug */,
+				604608AE184B6EF700C7956A /* AdHoc */,
+				604608AF184B6EF700C7956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60460886184B6EF700C7956A /* DefaultDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60460887184B6EF700C7956A /* DefaultDataModel.xcdatamodel */,
+			);
+			currentVersion = 60460887184B6EF700C7956A /* DefaultDataModel.xcdatamodel */;
+			path = DefaultDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 604607D3184B6EF600C7956A /* Project object */;
+}

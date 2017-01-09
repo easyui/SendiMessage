@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'SendiMessage' target in the 'SendiMessage' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "AppDelegate_Shared.h"
+#import "SMView_Shared.h"
+#import "SMViewController_Shared.h"
+#import "SendiMessage-Definition.h"
+#import "SMConfigManager.h"
+#import "SMShareDataManager.h"
+#import "SMShareDataParserManager.h"
+#import "SMAccessControlManager.h"
+#import "SMUserDefaultManager.h"
+#import "SMGeoManager.h"
+#import "SMPushNotificationManager.h"
+#import "UIViewController+SMHelper.h"
+#import "UIView+SMHelper.h"
+#endif

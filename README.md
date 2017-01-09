@@ -1,0 +1,2 @@
+# SendiMessage
+以前写的发iMessage营销短信的核心代码，必须在越狱设备上运行
